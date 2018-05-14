@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NewTestViewController
 //  Kabu
 //
 //  Created by Berk Kaya on 14.05.2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NewTestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

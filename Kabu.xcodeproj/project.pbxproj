@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C0E61D0820A9F469008ADBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0720A9F469008ADBFE /* AppDelegate.swift */; };
-		C0E61D0A20A9F469008ADBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0920A9F469008ADBFE /* ViewController.swift */; };
+		C0E61D0A20A9F469008ADBFE /* NewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */; };
 		C0E61D0D20A9F469008ADBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E61D0B20A9F469008ADBFE /* Main.storyboard */; };
 		C0E61D0F20A9F46A008ADBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E61D0E20A9F46A008ADBFE /* Assets.xcassets */; };
 		C0E61D1220A9F46A008ADBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E61D1020A9F46A008ADBFE /* LaunchScreen.storyboard */; };
+		C0E61D1A20A9F688008ADBFE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D1920A9F688008ADBFE /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0E61D0420A9F469008ADBFE /* Kabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E61D0720A9F469008ADBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0E61D0920A9F469008ADBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewController.swift; sourceTree = "<group>"; };
 		C0E61D0C20A9F469008ADBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E61D0E20A9F46A008ADBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E61D1120A9F46A008ADBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E61D1320A9F46A008ADBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E61D1920A9F688008ADBFE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				C0E61D0720A9F469008ADBFE /* AppDelegate.swift */,
-				C0E61D0920A9F469008ADBFE /* ViewController.swift */,
+				C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */,
+				C0E61D1920A9F688008ADBFE /* GameViewController.swift */,
 				C0E61D0B20A9F469008ADBFE /* Main.storyboard */,
 				C0E61D0E20A9F46A008ADBFE /* Assets.xcassets */,
 				C0E61D1020A9F46A008ADBFE /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E61D0A20A9F469008ADBFE /* ViewController.swift in Sources */,
+				C0E61D0A20A9F469008ADBFE /* NewTestViewController.swift in Sources */,
+				C0E61D1A20A9F688008ADBFE /* GameViewController.swift in Sources */,
 				C0E61D0820A9F469008ADBFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bk.sd.Kabu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bk.sd.Kabu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
