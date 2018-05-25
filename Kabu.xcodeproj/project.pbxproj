@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0640BE820AF10DF00C1B634 /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0640BE720AF10DF00C1B634 /* imageCell.swift */; };
 		C0E61D0820A9F469008ADBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0720A9F469008ADBFE /* AppDelegate.swift */; };
 		C0E61D0A20A9F469008ADBFE /* NewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */; };
 		C0E61D0D20A9F469008ADBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E61D0B20A9F469008ADBFE /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0640BE720AF10DF00C1B634 /* imageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
 		C0E61D0420A9F469008ADBFE /* Kabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E61D0720A9F469008ADBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */,
 				C0E61D1920A9F688008ADBFE /* GameViewController.swift */,
 				C0E61D0B20A9F469008ADBFE /* Main.storyboard */,
+				C0640BE720AF10DF00C1B634 /* imageCell.swift */,
 				C0E61D0E20A9F46A008ADBFE /* Assets.xcassets */,
 				C0E61D1020A9F46A008ADBFE /* LaunchScreen.storyboard */,
 				C0E61D1320A9F46A008ADBFE /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E61D0A20A9F469008ADBFE /* NewTestViewController.swift in Sources */,
+				C0640BE820AF10DF00C1B634 /* imageCell.swift in Sources */,
 				C0E61D1A20A9F688008ADBFE /* GameViewController.swift in Sources */,
 				C0E61D0820A9F469008ADBFE /* AppDelegate.swift in Sources */,
 			);
