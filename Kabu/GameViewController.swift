@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class GameViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var collectionView: UICollectionView!
     var images: [UIImage] = [
         UIImage(named: "003-hikaye")!,
@@ -44,6 +44,11 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        layout.minimumLineSpacing = 0
+        collectionView.collectionViewLayout = layout
+        collectionView.delegate = self
         // Do any additional setup after loading the view.
     }
 
@@ -79,12 +84,20 @@ class GameViewController: UIViewController, UICollectionViewDataSource, UICollec
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: view.frame.width, height: view.frame.height)
+    }
+    
+    /*
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: view.frame.height)
         
-    }
+    }*/
+    
+    
+    
 
 }
 
