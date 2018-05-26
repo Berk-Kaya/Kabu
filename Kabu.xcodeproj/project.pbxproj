@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01037F920B8DC51000E8D45 /* GameResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01037F820B8DC51000E8D45 /* GameResultVC.swift */; };
 		C0640BE820AF10DF00C1B634 /* imageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0640BE720AF10DF00C1B634 /* imageCell.swift */; };
 		C0E61D0820A9F469008ADBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0720A9F469008ADBFE /* AppDelegate.swift */; };
 		C0E61D0A20A9F469008ADBFE /* NewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */; };
@@ -14,9 +15,38 @@
 		C0E61D0F20A9F46A008ADBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E61D0E20A9F46A008ADBFE /* Assets.xcassets */; };
 		C0E61D1220A9F46A008ADBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E61D1020A9F46A008ADBFE /* LaunchScreen.storyboard */; };
 		C0E61D1A20A9F688008ADBFE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E61D1920A9F688008ADBFE /* GameViewController.swift */; };
+		C0EDF2BE20B8B82400052AA8 /* 16-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2A820B8B81900052AA8 /* 16-Hikaye.m4a */; };
+		C0EDF2BF20B8B82400052AA8 /* 22-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2A920B8B81A00052AA8 /* 22-Hikaye.m4a */; };
+		C0EDF2C020B8B82400052AA8 /* 27-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2AA20B8B81A00052AA8 /* 27-Hikaye.m4a */; };
+		C0EDF2C120B8B82400052AA8 /* 04-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2AB20B8B81B00052AA8 /* 04-Hikaye.m4a */; };
+		C0EDF2C220B8B82400052AA8 /* 12-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2AC20B8B81B00052AA8 /* 12-Hikaye.m4a */; };
+		C0EDF2C320B8B82400052AA8 /* 14-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2AD20B8B81C00052AA8 /* 14-Hikaye.m4a */; };
+		C0EDF2C420B8B82400052AA8 /* 20-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2AE20B8B81C00052AA8 /* 20-Hikaye.m4a */; };
+		C0EDF2C520B8B82400052AA8 /* 24-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2AF20B8B81D00052AA8 /* 24-Hikaye.m4a */; };
+		C0EDF2C620B8B82400052AA8 /* 09-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B020B8B81D00052AA8 /* 09-Hikaye.m4a */; };
+		C0EDF2C720B8B82400052AA8 /* 11-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B120B8B81E00052AA8 /* 11-Hikaye.m4a */; };
+		C0EDF2C820B8B82400052AA8 /* 13-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B220B8B81E00052AA8 /* 13-Hikaye.m4a */; };
+		C0EDF2C920B8B82400052AA8 /* 28-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B320B8B81F00052AA8 /* 28-Hikaye.m4a */; };
+		C0EDF2CA20B8B82400052AA8 /* 15-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B420B8B81F00052AA8 /* 15-Hikaye.m4a */; };
+		C0EDF2CB20B8B82400052AA8 /* 05-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B520B8B82000052AA8 /* 05-Hikaye.m4a */; };
+		C0EDF2CC20B8B82400052AA8 /* 10-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B620B8B82000052AA8 /* 10-Hikaye.m4a */; };
+		C0EDF2CD20B8B82400052AA8 /* 19-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B720B8B82100052AA8 /* 19-Hikaye.m4a */; };
+		C0EDF2CE20B8B82400052AA8 /* 08-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B820B8B82100052AA8 /* 08-Hikaye.m4a */; };
+		C0EDF2CF20B8B82400052AA8 /* 07-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2B920B8B82200052AA8 /* 07-Hikaye.m4a */; };
+		C0EDF2D020B8B82400052AA8 /* 21-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2BA20B8B82200052AA8 /* 21-Hikaye.m4a */; };
+		C0EDF2D120B8B82400052AA8 /* 06-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2BB20B8B82300052AA8 /* 06-Hikaye.m4a */; };
+		C0EDF2D220B8B82400052AA8 /* 25-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2BC20B8B82300052AA8 /* 25-Hikaye.m4a */; };
+		C0EDF2D320B8B82400052AA8 /* 17-Hikaye.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2BD20B8B82400052AA8 /* 17-Hikaye.m4a */; };
+		C0EDF2D820B8BAA100052AA8 /* Songattack.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2D520B8BAA000052AA8 /* Songattack.wav */; };
+		C0EDF2D920B8BAA100052AA8 /* Songslow-.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2D620B8BAA100052AA8 /* Songslow-.wav */; };
+		C0EDF2DA20B8BAA100052AA8 /* Songhurry.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2D720B8BAA100052AA8 /* Songhurry.wav */; };
+		C0EDF2DC20B8C1EA00052AA8 /* KidsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDF2DB20B8C1EA00052AA8 /* KidsData.swift */; };
+		C0EDF2E520B8C43B00052AA8 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDF2E320B8C43B00052AA8 /* TestCell.swift */; };
+		C0EDF2F020B8CC8B00052AA8 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EDF2EE20B8CC8B00052AA8 /* TestCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C01037F820B8DC51000E8D45 /* GameResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultVC.swift; sourceTree = "<group>"; };
 		C0640BE720AF10DF00C1B634 /* imageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCell.swift; sourceTree = "<group>"; };
 		C0E61D0420A9F469008ADBFE /* Kabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E61D0720A9F469008ADBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +56,34 @@
 		C0E61D1120A9F46A008ADBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E61D1320A9F46A008ADBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E61D1920A9F688008ADBFE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C0EDF2A820B8B81900052AA8 /* 16-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "16-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2A920B8B81A00052AA8 /* 22-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "22-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2AA20B8B81A00052AA8 /* 27-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "27-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2AB20B8B81B00052AA8 /* 04-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "04-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2AC20B8B81B00052AA8 /* 12-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2AD20B8B81C00052AA8 /* 14-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2AE20B8B81C00052AA8 /* 20-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "20-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2AF20B8B81D00052AA8 /* 24-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "24-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B020B8B81D00052AA8 /* 09-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "09-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B120B8B81E00052AA8 /* 11-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "11-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B220B8B81E00052AA8 /* 13-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "13-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B320B8B81F00052AA8 /* 28-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "28-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B420B8B81F00052AA8 /* 15-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "15-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B520B8B82000052AA8 /* 05-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B620B8B82000052AA8 /* 10-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "10-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B720B8B82100052AA8 /* 19-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "19-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B820B8B82100052AA8 /* 08-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "08-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2B920B8B82200052AA8 /* 07-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2BA20B8B82200052AA8 /* 21-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "21-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2BB20B8B82300052AA8 /* 06-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "06-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2BC20B8B82300052AA8 /* 25-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "25-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2BD20B8B82400052AA8 /* 17-Hikaye.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "17-Hikaye.m4a"; sourceTree = "<group>"; };
+		C0EDF2D520B8BAA000052AA8 /* Songattack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Songattack.wav; sourceTree = "<group>"; };
+		C0EDF2D620B8BAA100052AA8 /* Songslow-.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Songslow-.wav"; sourceTree = "<group>"; };
+		C0EDF2D720B8BAA100052AA8 /* Songhurry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Songhurry.wav; sourceTree = "<group>"; };
+		C0EDF2DB20B8C1EA00052AA8 /* KidsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsData.swift; sourceTree = "<group>"; };
+		C0EDF2E320B8C43B00052AA8 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		C0EDF2EE20B8CC8B00052AA8 /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +116,61 @@
 		C0E61D0620A9F469008ADBFE /* Kabu */ = {
 			isa = PBXGroup;
 			children = (
+				C0EDF2D420B8BA9700052AA8 /* musics */,
+				C0EDF29120B8B55E00052AA8 /* stories */,
 				C0E61D0720A9F469008ADBFE /* AppDelegate.swift */,
 				C0E61D0920A9F469008ADBFE /* NewTestViewController.swift */,
 				C0E61D1920A9F688008ADBFE /* GameViewController.swift */,
 				C0E61D0B20A9F469008ADBFE /* Main.storyboard */,
+				C01037F820B8DC51000E8D45 /* GameResultVC.swift */,
 				C0640BE720AF10DF00C1B634 /* imageCell.swift */,
 				C0E61D0E20A9F46A008ADBFE /* Assets.xcassets */,
 				C0E61D1020A9F46A008ADBFE /* LaunchScreen.storyboard */,
 				C0E61D1320A9F46A008ADBFE /* Info.plist */,
+				C0EDF2DB20B8C1EA00052AA8 /* KidsData.swift */,
+				C0EDF2E320B8C43B00052AA8 /* TestCell.swift */,
+				C0EDF2EE20B8CC8B00052AA8 /* TestCell.xib */,
 			);
 			path = Kabu;
+			sourceTree = "<group>";
+		};
+		C0EDF29120B8B55E00052AA8 /* stories */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDF2AB20B8B81B00052AA8 /* 04-Hikaye.m4a */,
+				C0EDF2B520B8B82000052AA8 /* 05-Hikaye.m4a */,
+				C0EDF2BB20B8B82300052AA8 /* 06-Hikaye.m4a */,
+				C0EDF2B920B8B82200052AA8 /* 07-Hikaye.m4a */,
+				C0EDF2B820B8B82100052AA8 /* 08-Hikaye.m4a */,
+				C0EDF2B020B8B81D00052AA8 /* 09-Hikaye.m4a */,
+				C0EDF2B620B8B82000052AA8 /* 10-Hikaye.m4a */,
+				C0EDF2B120B8B81E00052AA8 /* 11-Hikaye.m4a */,
+				C0EDF2AC20B8B81B00052AA8 /* 12-Hikaye.m4a */,
+				C0EDF2B220B8B81E00052AA8 /* 13-Hikaye.m4a */,
+				C0EDF2AD20B8B81C00052AA8 /* 14-Hikaye.m4a */,
+				C0EDF2B420B8B81F00052AA8 /* 15-Hikaye.m4a */,
+				C0EDF2A820B8B81900052AA8 /* 16-Hikaye.m4a */,
+				C0EDF2BD20B8B82400052AA8 /* 17-Hikaye.m4a */,
+				C0EDF2B720B8B82100052AA8 /* 19-Hikaye.m4a */,
+				C0EDF2AE20B8B81C00052AA8 /* 20-Hikaye.m4a */,
+				C0EDF2BA20B8B82200052AA8 /* 21-Hikaye.m4a */,
+				C0EDF2A920B8B81A00052AA8 /* 22-Hikaye.m4a */,
+				C0EDF2AF20B8B81D00052AA8 /* 24-Hikaye.m4a */,
+				C0EDF2BC20B8B82300052AA8 /* 25-Hikaye.m4a */,
+				C0EDF2AA20B8B81A00052AA8 /* 27-Hikaye.m4a */,
+				C0EDF2B320B8B81F00052AA8 /* 28-Hikaye.m4a */,
+			);
+			path = stories;
+			sourceTree = "<group>";
+		};
+		C0EDF2D420B8BA9700052AA8 /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDF2D520B8BAA000052AA8 /* Songattack.wav */,
+				C0EDF2D720B8BAA100052AA8 /* Songhurry.wav */,
+				C0EDF2D620B8BAA100052AA8 /* Songslow-.wav */,
+			);
+			path = musics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +231,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EDF2C920B8B82400052AA8 /* 28-Hikaye.m4a in Resources */,
+				C0EDF2D820B8BAA100052AA8 /* Songattack.wav in Resources */,
+				C0EDF2CF20B8B82400052AA8 /* 07-Hikaye.m4a in Resources */,
+				C0EDF2D020B8B82400052AA8 /* 21-Hikaye.m4a in Resources */,
+				C0EDF2F020B8CC8B00052AA8 /* TestCell.xib in Resources */,
+				C0EDF2C220B8B82400052AA8 /* 12-Hikaye.m4a in Resources */,
+				C0EDF2CC20B8B82400052AA8 /* 10-Hikaye.m4a in Resources */,
+				C0EDF2CD20B8B82400052AA8 /* 19-Hikaye.m4a in Resources */,
+				C0EDF2BE20B8B82400052AA8 /* 16-Hikaye.m4a in Resources */,
+				C0EDF2C320B8B82400052AA8 /* 14-Hikaye.m4a in Resources */,
+				C0EDF2C420B8B82400052AA8 /* 20-Hikaye.m4a in Resources */,
+				C0EDF2C120B8B82400052AA8 /* 04-Hikaye.m4a in Resources */,
 				C0E61D1220A9F46A008ADBFE /* LaunchScreen.storyboard in Resources */,
+				C0EDF2C620B8B82400052AA8 /* 09-Hikaye.m4a in Resources */,
+				C0EDF2D220B8B82400052AA8 /* 25-Hikaye.m4a in Resources */,
+				C0EDF2DA20B8BAA100052AA8 /* Songhurry.wav in Resources */,
 				C0E61D0F20A9F46A008ADBFE /* Assets.xcassets in Resources */,
+				C0EDF2D120B8B82400052AA8 /* 06-Hikaye.m4a in Resources */,
+				C0EDF2D920B8BAA100052AA8 /* Songslow-.wav in Resources */,
 				C0E61D0D20A9F469008ADBFE /* Main.storyboard in Resources */,
+				C0EDF2CB20B8B82400052AA8 /* 05-Hikaye.m4a in Resources */,
+				C0EDF2CE20B8B82400052AA8 /* 08-Hikaye.m4a in Resources */,
+				C0EDF2C020B8B82400052AA8 /* 27-Hikaye.m4a in Resources */,
+				C0EDF2D320B8B82400052AA8 /* 17-Hikaye.m4a in Resources */,
+				C0EDF2CA20B8B82400052AA8 /* 15-Hikaye.m4a in Resources */,
+				C0EDF2BF20B8B82400052AA8 /* 22-Hikaye.m4a in Resources */,
+				C0EDF2C820B8B82400052AA8 /* 13-Hikaye.m4a in Resources */,
+				C0EDF2C720B8B82400052AA8 /* 11-Hikaye.m4a in Resources */,
+				C0EDF2C520B8B82400052AA8 /* 24-Hikaye.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E61D0A20A9F469008ADBFE /* NewTestViewController.swift in Sources */,
+				C0EDF2E520B8C43B00052AA8 /* TestCell.swift in Sources */,
+				C0EDF2DC20B8C1EA00052AA8 /* KidsData.swift in Sources */,
 				C0640BE820AF10DF00C1B634 /* imageCell.swift in Sources */,
+				C01037F920B8DC51000E8D45 /* GameResultVC.swift in Sources */,
 				C0E61D1A20A9F688008ADBFE /* GameViewController.swift in Sources */,
 				C0E61D0820A9F469008ADBFE /* AppDelegate.swift in Sources */,
 			);

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GameViewController.playStory(index:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "        Bundle.main.url(forResource: &quot;04-Hikaye&quot;, withExtension: &quot;m4a&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
